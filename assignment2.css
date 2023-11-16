@@ -1,0 +1,48 @@
+*{
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: deeppink;
+}
+.header{
+    border: 2px black solid;
+    width: 98%;
+    height: 20%;
+    text-align: center;
+    background-color: aqua;
+}
+.aside{
+    
+    border: 2px black solid;
+    width: 28%;
+    height: 60%; 
+    background-color: aqua;
+    float: left;
+    padding: 150px;
+}
+.article{
+    
+    border: 2px black solid;
+    width: 67%;
+    height: 60%; 
+    background-color: red;
+    float: right;
+    padding: 150px;
+    text-align: center ;
+    background-image: url(./image/fire.gif),url(./image/fire.gif),url(./image/fire.gif);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 200px,100px,200px;
+    background-position: left bottom, bottom center,right bottom;
+    
+}
+.footer{
+    clear: both;
+    border: 2px black solid;
+    width: 98%;
+    height: 20%;
+    text-align: center;
+    background-color: aqua;
+
+}
